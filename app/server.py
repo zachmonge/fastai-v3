@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/file/d/1CC5VaH_MKN5h7N93XiFWsqVRgj0GXFQs/view?usp=sharing'
+export_file_url = 'https://www.dropbox.com/s/gmkb3otn2iu4hts/export.pkl?dl=0'
 export_file_name = 'export.pkl'
 
 classes = ['dog','rooster','pig','cow','frog','cat','hen','insects_flying','sheep','crow',
