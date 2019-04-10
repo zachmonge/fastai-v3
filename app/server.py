@@ -9,10 +9,16 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/file/d/1CC5VaH_MKN5h7N93XiFWsqVRgj0GXFQs/view?usp=sharing'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['dog','rooster','pig','cow','frog','cat','hen','insects_flying','sheep','crow',
+'rain','sea_waves','crackling_fire','crickets','chirping_birds','water_drops','wind',
+'pouring_water','toilet_flush','thunderstorm','crying_baby','sneezing','clapping',
+'breathing','coughing','footsteps','laughing','brushing_teeth','snoring','drinking_sipping',
+'door_knock','mouse_click','keyboard_typing','door_wood_creaks','can_opening','washing_machine',
+'vacuum_cleaner','clock_alarm','clock_tick','glass_breaking','Helicopter','chainsaw','siren',
+'car_horn','engine','train','church_bells','airplane','fireworks','hand_saw']
 path = Path(__file__).parent
 
 app = Starlette()
