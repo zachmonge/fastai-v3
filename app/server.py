@@ -1,4 +1,4 @@
-!pip install --upgrade git+https://github.com/fastai/fastai.git
+pip install --upgrade git+https://github.com/fastai/fastai.git
 from starlette.applications import Starlette
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
